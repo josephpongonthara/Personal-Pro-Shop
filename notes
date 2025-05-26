@@ -1,0 +1,5 @@
+curl -X POST \
+	-H "Content-type: application/json" \
+	-H "Authorization: Bearer $TOKEN" \
+	"https://$HOSTNAME/api/v2/ontologies/palantir/actions/rename-employee/apply" \
+	-d '{"parameters":{"id":80060,"newName":"Anna Smith-Doe"}}'

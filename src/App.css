@@ -1,0 +1,144 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1a3c2b;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-placeholder {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.main-header {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.sub-header {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.question {
+  margin-top: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.submit-button {
+  margin-top: 2rem;
+  background-color: white;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #ddd;
+}
+
+.loader {
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.recommendation .product {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand-logo {
+  height: 30px;
+  width: auto;
+}
+.horizontal-radio-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.horizontal-option {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.horizontal-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* space between items */
+  margin-top: 0.5rem;
+}
+
+.horizontal-options > div {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.spaced {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.equipment-block {
+  background: none;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.fade-line {
+  opacity: 0;
+}
+
